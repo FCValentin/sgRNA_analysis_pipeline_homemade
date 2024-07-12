@@ -1,0 +1,8 @@
+Samples	baseline	Common	Late	inhibitor	FOLR1
+D8_Algox_FOLR1	1	1	0	0	1
+D8_Algox_EGFP	1	1	0	0	0
+D8_UFO_FOLR1	1	1	0	1	1
+D8_UFO_EGFP	1	1	0	1	0
+D15_Algox_FOLR1	1	1	1	0	1
+D15_Algox_EGFP	1	1	1	0	0
+D0_None_None	1	0	0	0	0

@@ -1,0 +1,8 @@
+Samples	Batch	Day	FOLR1	CultureMedium	n_sgRNA
+D8_Algox_FOLR1	1	8	True	ALGoX	9043
+D8_Algox_EGFP	1	8	False	ALGoX	8219
+D8_UFO_FOLR1	1	8	True	ALGoX_UFO	12658
+D8_UFO_EGFP	1	8	False	ALGoX_UFO	13923
+D15_Algox_FOLR1	1	15	True	ALGoX	7381
+D15_Algox_EGFP	1	15	False	ALGoX	6271
+D0_None_None	1	0	False	NO	19532
