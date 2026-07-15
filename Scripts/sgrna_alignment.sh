@@ -63,7 +63,7 @@ mkdir -p trimgalore bwa log input
 # =============================================================================
 
 echo "[1/5] Building BWA index on: ${REF_FASTA}"
-conda activate VanessaPipeline
+conda activate sgRNAPipeline
 bwa index -a is "${REF_FASTA}" -p "${REF_PREFIX}"
 conda deactivate
 
@@ -137,7 +137,7 @@ conda deactivate
 # =============================================================================
 
 echo "[5/5] Running MAGeCK count..."
-conda activate VanessaPipeline
+conda activate sgRNAPipeline
 
 mageck count \
     -l   "${SGRNA_TABLE}" \
