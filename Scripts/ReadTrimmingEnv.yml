@@ -1,16 +1,17 @@
 name: ReadTrimming
+# Trimming-only environment: TrimGalore + FastQC + QC utilities
+# Install: conda env create -f ReadTrimmingEnv.yml
+# Activate: conda activate ReadTrimming
 channels:
   - bioconda
   - conda-forge
-  - ostrokach
   - defaults
-  - r
 dependencies:
-  - cutadapt=1.18
-  - trim-galore=0.4.5
-  - fastqc=0.11.9
-  - python=3.6
-  - samtools=1.12
-  - sambamba=0.8.1
-  - gcc=11.2.0
+  - python=3.9
+  - cutadapt=4.4
+  - trim-galore=0.6.10
+  - fastqc=0.12.1
+  - samtools=1.17
+  - sambamba=1.0
+  - gcc=12.3.0
   - gawk
