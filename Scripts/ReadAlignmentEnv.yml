@@ -9,8 +9,7 @@ channels:
 dependencies:
   - python=3.6
   - bwa=0.7.17
-  - samtools=1.17
-  - sambamba=1.0
-  - fastqc=0.12.1
-  - gcc=12.3.0
+  - samtools=1.12
+  - sambamba=0.8.1
+  - gcc=11.2.0
   - gawk
