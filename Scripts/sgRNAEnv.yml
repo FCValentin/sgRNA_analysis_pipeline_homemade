@@ -8,9 +8,8 @@ channels:
   - defaults
 dependencies:
   - python=3.6        
-  - samtools=1.17
-  - sambamba=1.0
-  - bedtools=2.31.0
+  - samtools=1.12
+  - sambamba=0.8.1
   - gcc=12.3.0
   - gawk
   - mageck=0.5.9.5 
