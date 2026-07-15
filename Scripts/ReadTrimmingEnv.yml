@@ -7,7 +7,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.6
   - cutadapt=4.4
   - trim-galore=0.6.10
   - fastqc=0.12.1
