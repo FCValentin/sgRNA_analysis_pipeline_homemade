@@ -1,4 +1,4 @@
-name: VanessaPipeline
+name: sgRNAPipeline
 channels:
   - bioconda
   - conda-forge
