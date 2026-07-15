@@ -1,5 +1,5 @@
 name: sgRNAPipeline
-# Full pipeline environment: trimming + alignment + MAGeCK counting
+# Full pipeline environment: MAGeCK counting
 # Install: conda env create -f sgRNAEnv.yml
 # Activate: conda activate sgRNAPipeline
 channels:
@@ -13,4 +13,4 @@ dependencies:
   - bedtools=2.31.0
   - gcc=12.3.0
   - gawk
-  - mageck=0.5.9.5    # added: was missing from original env
+  - mageck=0.5.9.5 
