@@ -72,7 +72,7 @@ conda deactivate
 # =============================================================================
 
 echo "[2/5] Trimming reads..."
-conda activate CutRun_ChenPipeline
+conda activate ReadTrimming
 
 for sample in $(ls -1 fastq/*_1.fastq.gz | \
                cut -d "/" -f 2 | \
@@ -92,7 +92,7 @@ conda deactivate
 # =============================================================================
 
 echo "[3/5] Aligning trimmed reads to sgRNA reference..."
-conda activate ChIP_SeqPipeline
+conda activate ReadAlignment
 
 for sample in $(ls -1 trimgalore/*_1_trimmed.fq.gz | \
                cut -d "/" -f 2 | \
